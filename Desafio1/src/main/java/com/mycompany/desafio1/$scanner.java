@@ -6,7 +6,7 @@ package com.mycompany.desafio1;
 
 /**
  *
- * @author geremias
+ * @author EvelynSantos
  */
 class $scanner {
     
