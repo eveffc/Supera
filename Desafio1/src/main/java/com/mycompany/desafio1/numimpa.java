@@ -6,8 +6,8 @@ package com.mycompany.desafio1;
 
 /**
  *
- * @author EvelynSantos
+ * @author geremias
  */
-class $scanner {
+class numimpa {
     
 }
