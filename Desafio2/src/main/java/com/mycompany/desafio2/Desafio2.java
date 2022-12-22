@@ -5,10 +5,9 @@
 
 package com.mycompany.desafio2;
 
-import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
+
+
 
 /**
  *
@@ -18,19 +17,56 @@ public class Desafio2 {
 
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-        List<BigDecimal> entradaVal = new ArrayList<>();
-        List<Integer> entradaNota = new ArrayList<>();
-        List<Integer> entradaMoeda = new ArrayList<>();
+        System.out.println("Entre com o valor que deseja pagar:");
+        double val = ler.nextDouble();
+        int result;
+        System.out.println("Notas:");
+        result = (int) (val/100);
+        System.out.println(result + " de R$100.00");
         
-        System.out.println("Digite um valor a pagar:");
-        float valor = 0;
-        for(float i=0; valor>1; i++){
-            int v = ler.nextInt();
-            entradaMoeda.add(v);
-        }for(float i=0;valor<1;i++){
-            int M = ler.nextInt();
-                entradaMoeda.add(M);
-                }
+        val = val%100; 
+        result = (int)(val/50);
+        System.out.println(result + " de R$50.00");
         
+        val = val%50; 
+        result = (int)(val/20);
+        System.out.println(result + " de R$20.00");
+        
+        val = val%20; 
+        result = (int)(val/10);
+        System.out.println(result + " de R$10.00");
+        
+        val = val%10; 
+        result = (int)(val/5);
+        System.out.println(result + " de R$5.00");
+        
+        val = val%5; 
+        result = (int)(val/2);
+        System.out.println(result + " de R$2.00");
+        
+        System.out.println("Moedas:");
+        val = val%2; 
+        result = (int)(val/1);
+        System.out.println(result + " de R$1.00");
+        
+        val = val%1; 
+        result = (int)(val/0.5);
+        System.out.println(result + " de R$0.50");
+        
+        val = val%0.5; 
+        result = (int)(val/0.25);
+        System.out.println(result + " de R$0.25");
+        
+        val = val%0.25; 
+        result = (int)(val/0.1);
+        System.out.println(result + " de R$0.10");
+        
+        val = val%0.10; 
+        result = (int)(val/0.05);
+        System.out.println(result + " de R$0.05");
+        
+        val = val%0.05; 
+        result = (int)(val/0.01);
+        System.out.println(result + " de R$0.01");
     }
 }
