@@ -1,11 +1,10 @@
 package com.mycompany.desafio1;
 
-import java.lang.reflect.Array;
-import java.text.Collator;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
+import tela.TelaInput;
 /**
  *
  * @author EvelynSantos
@@ -13,6 +12,8 @@ import java.util.Scanner;
 public class Desafio1 {
 
     public static void main(String[] args) {
+      TelaInput telaPrincipal = new TelaInput();
+      telaPrincipal.setVisible(true);
       Scanner ler= new Scanner (System.in);
       List<Integer> entradaNum = new ArrayList<>();
       List<Integer> entradaPar = new ArrayList<>();
