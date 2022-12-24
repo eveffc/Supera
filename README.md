@@ -14,3 +14,12 @@ desse modo, o sistema irá aceitar a quantidade indicada e após completar ele e
 o comando de reorganinzação proposto.
 
 
+## Desafio2
+Inserir um valor real, não negativo, aleatório e ele terá que dizer a menor<br>
+quantidade de notas e/ou moedas para chegar àquele valor.
+
+<p aling="center"><img src="README/Desafio2.gif" width=600px></p>
+
+### Como funciona
+O usuário irá inserir um valor em que deseja calcular e ao fazer a entrada desse <br>
+valor, o sistema irá calcular automaticamente o resultado.
